@@ -1,0 +1,8 @@
+#By using the symbol ':user', we get FActory Girl to simulate the User model.
+
+Factory.define :user do |user|
+	user.name		   "Mathias Mervin"
+	user.email		   "mx962001@yahoo.com"
+	user.password	  	   "foobar"
+	user.password_confirmation "foobar"
+end
