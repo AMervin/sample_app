@@ -291,7 +291,11 @@ describe UsersController do
 	       delete :destroy, :id => @user
 	       response.should redirect_to(root_path)
 	    end
-	 end
+
+	   # it "should hide the delete links from non-admins" do
+	#	test_sign_in(@user)
+	#	response.should_not- have_selector(
+ 	end
 
 	 describe "as an admin user" do
 
